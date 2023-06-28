@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
-app.all('/', async (req, res) => {
+app.all('/', (req, res) => {
 
 
-    function check(inf,dev) {
+    function async check(inf,dev) {
                   var info =inf
                   var device=dev
                     var country_code = info['country_code']
