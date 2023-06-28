@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-app.all('/', (req, res) => {
+app.all('/', async (req, res) => {
 
 
     function check(inf,dev) {
